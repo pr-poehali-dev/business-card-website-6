@@ -258,7 +258,8 @@ const Index = () => {
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
                 <CardContent className="p-6 space-y-4">
-                  <p className="text-muted-foreground leading-relaxed">Хотел бы поделиться своим опытом работы с Филатовой Юлией. Она разработала для нашей компании веб-приложение, которое полностью соответствует всем нашим требованиям. Юлия проявила высочайший профессионализм, всегда была на все вопросы. Проект был выполнен в срок, и результат превзошел наши ожидания!</p>
+                  <p className="text-muted-foreground leading-relaxed">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
+За время работы в нашем подразделении Юлия продемонстрировала высокий уровень теоретической подготовки и выдающиеся практические способности. Она быстро освоилась с внутренней IT-инфраструктурой и активно включилась в работу команды.</p>
                   <div>
                     <div className="font-heading font-semibold">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.company}</div>
