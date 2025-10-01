@@ -258,8 +258,7 @@ const Index = () => {
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
                 <CardContent className="p-6 space-y-4">
-                  <p className="text-muted-foreground leading-relaxed">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
-За время работы в нашем подразделении Юлия продемонстрировала высокий уровень теоретической подготовки и выдающиеся практические способности. Она быстро освоилась с внутренней IT-инфраструктурой и активно включилась в работу команды.</p>
+                  <p className="text-muted-foreground leading-relaxed">Хотел бы поделиться своим опытом работы с Филатовой Юлией. Она разработала для нашей компании веб-приложение, которое полностью соответствует всем нашим требованиям. Юлия проявила высочайший профессионализм, всегда была на все вопросы. Проект был выполнен в срок, и результат превзошел наши ожидания!</p>
                   <div>
                     <div className="font-heading font-semibold">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.company}</div>
@@ -303,10 +302,7 @@ const Index = () => {
                   <Icon name="Mail" size={20} />
                   yulya.filatova@mail.ru
                 </a>
-                <div className="flex items-center gap-3 text-lg">
-                  <Icon name="MapPin" size={20} />
-                  Москва, ул. Пушкинская, д.84
-                </div>
+                <div className="flex items-center gap-3 text-lg">Вологда, улюПсковская 8а</div>
               </div>
               <div className="flex gap-4 pt-4">
                 <a href="https://vk.com/yuullik" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
