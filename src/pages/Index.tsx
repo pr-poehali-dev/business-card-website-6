@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Icon from "@/components/ui/icon";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Index = () => {
   const services = [
@@ -31,9 +32,22 @@ const Index = () => {
 
   const portfolio = [
     {
-      title: "Сайт ООО \"ИНТЕР\"",
-      description: "Сайт разработан в рекордно короткие сроки за 3 месяца с учетом запросов клиента",
-      points: ["Сайт-витрину", "Каталог продукции", "Личный кабинет"]
+      title: "Сайт ООО \"ИТВП\"",
+      description: "Сайт разработан в пределах отчета по практике на предприятии ЗАО \"ВПЗ\".",
+      points: ["Сайт-визитку", "Современный дизайн", "Чистый код"],
+      image: "https://cdn.poehali.dev/files/3f6d93a6-c9ed-4144-a8c6-0c06b88a49ae.png"
+    },
+    {
+      title: "Дизайн макет для молочного комбината \"ВкусMilk\"",
+      description: "Полный дизайн-макет сайта с современным подходом к визуализации продукции.",
+      points: ["Современный дизайн", "Сайт-визитку", "Библиотеку компонентов"],
+      image: "https://cdn.poehali.dev/files/53eba8e8-f962-42fa-8aad-f8efe8849a16.png"
+    },
+    {
+      title: "Дизайн макет для металлургического комбината \"МеталлИнвест\"",
+      description: "Корпоративный сайт с акцентом на промышленную направленность.",
+      points: ["Современный дизайн", "Сайт-визитку", "Библиотеку компонентов"],
+      image: "https://cdn.poehali.dev/files/3f6d93a6-c9ed-4144-a8c6-0c06b88a49ae.png"
     }
   ];
 
@@ -145,30 +159,43 @@ const Index = () => {
       <section id="portfolio" className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12">Мои работы</h2>
-          <div className="max-w-4xl mx-auto">
-            {portfolio.map((project, index) => (
-              <Card key={index} className="bg-purple-light border-0">
-                <CardContent className="p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center">
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-heading font-bold text-purple">{project.title}</h3>
-                    <p className="text-muted-foreground">{project.description}</p>
-                    <ul className="space-y-2">
-                      {project.points.map((point, i) => (
-                        <li key={i} className="flex items-center gap-2">
-                          <Icon name="Check" className="text-purple" size={16} />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="bg-white rounded-lg p-4 shadow-lg">
-                    <div className="aspect-video bg-gradient-to-br from-purple-light to-purple/20 rounded flex items-center justify-center">
-                      <Icon name="Monitor" className="text-purple" size={64} />
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="max-w-6xl mx-auto px-12">
+            <Carousel className="w-full">
+              <CarouselContent>
+                {portfolio.map((project, index) => (
+                  <CarouselItem key={index}>
+                    <Card className="bg-purple-light border-0">
+                      <CardContent className="p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center">
+                        <div className="space-y-6">
+                          <h3 className="text-2xl md:text-3xl font-heading font-bold text-purple">{project.title}</h3>
+                          <p className="text-muted-foreground text-lg leading-relaxed">{project.description}</p>
+                          <div className="space-y-1">
+                            <p className="font-semibold text-dark mb-3">Клиент запросил:</p>
+                            <ul className="space-y-2">
+                              {project.points.map((point, i) => (
+                                <li key={i} className="flex items-start gap-3">
+                                  <span className="text-purple font-bold mt-0.5">{i + 1}.</span>
+                                  <span className="text-muted-foreground">{point}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="bg-white rounded-lg p-2 shadow-2xl">
+                          <img 
+                            src={project.image} 
+                            alt={project.title}
+                            className="w-full h-auto rounded object-contain"
+                          />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="bg-purple text-white hover:bg-purple/90 border-0" />
+              <CarouselNext className="bg-purple text-white hover:bg-purple/90 border-0" />
+            </Carousel>
           </div>
         </div>
       </section>
