@@ -90,9 +90,7 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-white to-purple-light/30">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <p className="text-sm text-muted-foreground uppercase tracking-wider">
-              Полный цикл разработки современных и адаптивных веб-приложений
-            </p>
+            <p className="text-muted-foreground uppercase tracking-wider text-xs">Разработка веб-сайтов и мультимедийного контента для пользователей.</p>
             <h1 className="text-5xl md:text-6xl font-heading font-bold leading-tight">
               Филатова Юлия<br />Дмитриевна
             </h1>
