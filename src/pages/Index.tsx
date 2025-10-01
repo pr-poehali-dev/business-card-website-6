@@ -23,9 +23,9 @@ const Index = () => {
       icon: "Settings"
     },
     {
-      title: "Консалтинг и аудит",
-      description: "Аудит текущего проекта и рекомендации по улучшению функционала",
-      icon: "CheckCircle"
+      title: "Backend-разработка",
+      description: "Разработка серверной части приложений, API и интеграции с базами данных",
+      icon: "Server"
     }
   ];
 
