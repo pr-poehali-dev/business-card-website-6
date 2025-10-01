@@ -47,7 +47,7 @@ const Index = () => {
       title: "Дизайн макет для металлургического комбината \"МеталлИнвест\"",
       description: "Корпоративный сайт с акцентом на промышленную направленность.",
       points: ["Современный дизайн", "Сайт-визитку", "Библиотеку компонентов"],
-      image: "https://cdn.poehali.dev/files/3f6d93a6-c9ed-4144-a8c6-0c06b88a49ae.png"
+      image: "https://cdn.poehali.dev/files/908aed34-18e4-42b2-b156-b6eae30139db.png"
     }
   ];
 
