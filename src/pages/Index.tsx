@@ -105,7 +105,7 @@ const Index = () => {
           </div>
           <div className="relative animate-fade-in">
             <img 
-              src="/img/e4856ad5-e5ec-4a00-b10a-a15b3e9669bc.jpg" 
+              src="https://cdn.poehali.dev/files/399ba999-d7c7-4aee-88a0-161555bf42e2.jpg" 
               alt="Филатова Юлия" 
               className="rounded-lg shadow-2xl w-full object-cover"
             />
