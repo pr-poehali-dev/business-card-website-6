@@ -256,7 +256,7 @@ const Index = () => {
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
                 <CardContent className="">
-                  <p className="text-muted-foreground leading-relaxed">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
+                  <p className="text-muted-foreground leading-relaxed margin 5px">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
 За время работы в нашем подразделении Юлия продемонстрировала высокий уровень теоретической подготовки и выдающиеся практические способности. Она быстро освоилась с внутренней IT-инфраструктурой и активно включилась в работу команды.</p>
                   <div>
                     <div className="font-heading font-semibold">{testimonial.name}</div>
