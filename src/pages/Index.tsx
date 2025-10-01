@@ -110,7 +110,7 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-white to-purple-light/30">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <p className="text-muted-foreground uppercase tracking-wider text-xs">Разработка веб-сайтов и мультимедийного контента для пользователей.</p>
+            <p className="text-muted-foreground uppercase tracking-wider text-xs">Разработка веб и мультимедийных приложений под ключ для бизнеса. Повышение эффективности и привлечение клиентов с современными решениями.</p>
             <h1 className="text-5xl md:text-6xl font-heading font-bold leading-tight">
               Филатова Юлия<br />Дмитриевна
             </h1>
@@ -258,7 +258,7 @@ const Index = () => {
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
                 <CardContent className="p-6 space-y-4">
-                  <p className="text-muted-foreground italic leading-relaxed">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground leading-relaxed">Хотел бы поделиться своим опытом работы с Филатовой Юлией. Она разработала для нашей компании веб-приложение, которое полностью соответствует всем нашим требованиям. Юлия проявила высочайший профессионализм, всегда была на все вопросы. Проект был выполнен в срок, и результат превзошел наши ожидания!</p>
                   <div>
                     <div className="font-heading font-semibold">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.company}</div>
