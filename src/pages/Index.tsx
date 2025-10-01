@@ -294,10 +294,7 @@ const Index = () => {
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-heading font-bold">Контакты</h2>
               <div className="space-y-4">
-                <a href="tel:+79156264411" className="flex items-center gap-3 text-lg hover:text-purple transition-colors">
-                  <Icon name="Phone" size={20} />
-                  +79156264411
-                </a>
+                <a href="tel:+79156264411" className="flex items-center gap-3 text-lg hover:text-purple transition-colors">+79115262411</a>
                 <a href="mailto:yulya.filatova@mail.ru" className="flex items-center gap-3 text-lg hover:text-purple transition-colors">
                   <Icon name="Mail" size={20} />
                   yulya.filatova@mail.ru
