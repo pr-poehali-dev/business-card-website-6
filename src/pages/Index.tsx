@@ -255,7 +255,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-6">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
-                <CardContent className="p-6 space-y-4">
+                <CardContent className="">
                   <p className="text-muted-foreground leading-relaxed">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
 За время работы в нашем подразделении Юлия продемонстрировала высокий уровень теоретической подготовки и выдающиеся практические способности. Она быстро освоилась с внутренней IT-инфраструктурой и активно включилась в работу команды.</p>
                   <div>
