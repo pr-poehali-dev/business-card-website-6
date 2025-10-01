@@ -110,13 +110,11 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-white to-purple-light/30">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <p className="text-muted-foreground uppercase tracking-wider text-xs">Разработка веб и мультимедийных приложений под ключ для бизнеса. Повышение эффективности и привлечение клиентов с современными решениями.</p>
+            <p className="text-muted-foreground uppercase tracking-wider text-xs">Разработка веб-сайтов и мультимедийного контента для пользователей.</p>
             <h1 className="text-5xl md:text-6xl font-heading font-bold leading-tight">
               Филатова Юлия<br />Дмитриевна
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Разрабатываю веб-приложения с использованием React для сети и React Native для мобильных устройств. Люблю создавать интуитивные интерфейсы с акцентом на производительности.
-            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">Разработка веб и мультимедийных приложений под ключ для бизнеса. Повышение эффективности и привлечение клиентов с современными решениями.</p>
             <Button size="lg" className="bg-dark hover:bg-dark/90 text-white px-8 py-6 text-lg">
               Связаться
             </Button>
@@ -258,7 +256,8 @@ const Index = () => {
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-purple-light border-0">
                 <CardContent className="p-6 space-y-4">
-                  <p className="text-muted-foreground leading-relaxed">Хотел бы поделиться своим опытом работы с Филатовой Юлией. Она разработала для нашей компании веб-приложение, которое полностью соответствует всем нашим требованиям. Юлия проявила высочайший профессионализм, всегда была на все вопросы. Проект был выполнен в срок, и результат превзошел наши ожидания!</p>
+                  <p className="text-muted-foreground leading-relaxed">Управление информационных технологий и связи выражает благодарность студенту Филатовой Юлии за успешное прохождение производственной практики.
+За время работы в нашем подразделении Юлия продемонстрировала высокий уровень теоретической подготовки и выдающиеся практические способности. Она быстро освоилась с внутренней IT-инфраструктурой и активно включилась в работу команды.</p>
                   <div>
                     <div className="font-heading font-semibold">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.company}</div>
@@ -299,7 +298,7 @@ const Index = () => {
                   <Icon name="Mail" size={20} />
                   yulya.filatova@mail.ru
                 </a>
-                <div className="flex items-center gap-3 text-lg">Вологда, улюПсковская 8а</div>
+                <div className="flex items-center gap-3 text-lg">Вологда, ул. Псковская 8а</div>
               </div>
               <div className="flex gap-4 pt-4">
                 <a href="https://vk.com/yuullik" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
