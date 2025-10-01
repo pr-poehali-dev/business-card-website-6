@@ -230,7 +230,7 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-4">Полезные ссылки</h2>
           <div className="flex justify-center gap-6 mt-8">
             <a 
-              href="https://vk.ru/yulia.code" 
+              href="https://vk.com/yuullik" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white px-6 py-3 rounded-lg hover:scale-105 transition-transform shadow-md"
@@ -239,7 +239,7 @@ const Index = () => {
               <span className="font-medium">ВК</span>
             </a>
             <a 
-              href="https://t.me/yulia_code" 
+              href="https://t.me/yuuliik" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white px-6 py-3 rounded-lg hover:scale-105 transition-transform shadow-md"
@@ -308,10 +308,10 @@ const Index = () => {
                 </div>
               </div>
               <div className="flex gap-4 pt-4">
-                <a href="https://vk.ru/yulia.code" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
+                <a href="https://vk.com/yuullik" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
                   <Icon name="MessageCircle" size={20} />
                 </a>
-                <a href="https://t.me/yulia_code" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
+                <a href="https://t.me/yuuliik" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
                   <Icon name="Send" size={20} />
                 </a>
                 <a href="https://github.com/yulia" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-purple transition-colors">
